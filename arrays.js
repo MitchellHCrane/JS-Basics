@@ -39,11 +39,12 @@ const middleNums = numbers.slice(1, 4)
 function bigOrSmall(arr) {
   let answers = []
   for (let i = 0; i < arr.length; i++) {
-    if (arr > 100) {
-answers.push('big')
-    } else if (arr <= 100) {
+    if (arr[i] > 100) {
+      answers.push('big')
+    } else {
       answers.push('small')
     }
   }
   return answers
 }
+

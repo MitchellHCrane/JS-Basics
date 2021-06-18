@@ -7,7 +7,7 @@
 
 //CODE HERE
 function sum(num1, num2) {
-  return sum(num1 + num2)
+  return num1 + num2
 } 
 
 //////////////////PROBLEM 2////////////////////
@@ -36,7 +36,7 @@ function greaterThanFive(number) {
 
 //CODE HERE
 function findZWords(word) {
-  if(word.startsWith('Z')) {
+  if(word[0] ==='Z' || word[0] === 'z') {
     return 'the name begins with Z'
   } else {
     return 'the name does not begin with Z'}

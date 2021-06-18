@@ -15,18 +15,20 @@
 */
 
 //CODE HERE
-const me = {
+let me = {
  firstName: 'Mitchell',
  state: 'Utah',
  age: 25,
- greeter: true,
-
-  greeter() {
-    greeter = true
-    return( `Hello! My name is ${firstName} and I live in ${state}`)
-  }  
+greeter () {
+  return `Hello! My name is ${this.firstName} and I live in ${this.state}`
 }
+  }  
 
+  //greeter: function () {
+    // return `Hello! My.....`
+  // }
+
+// console.log(me.greeter());
  
 
 
@@ -57,5 +59,15 @@ const me = {
 
 //CODE HERE
 function carFactory (make, model, year) {
-
+  const car = 
+    const car = (make, model, year);
+  }
+    if(year > 2018)
+    car.isNew = true
+  } else {
+    car.isNew = false
+  }
+  return console.log(car);
 }
+
+carFactory('Chevy', 'Colorado', '2017')
