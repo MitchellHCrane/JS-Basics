@@ -59,10 +59,9 @@ greeter () {
 
 //CODE HERE
 function carFactory (make, model, year) {
-  const car = 
-    const car = (make, model, year);
-  }
-    if(year > 2018)
+    const car = {make, model, year};
+  
+    if(year > 2018) {
     car.isNew = true
   } else {
     car.isNew = false
